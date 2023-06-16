@@ -1,8 +1,8 @@
+import { TecnicoService } from './../../../services/tecnico.service';
 import { Tecnico } from './../../../models/tecnico';
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
-import { TecnicoService } from 'src/app/services/tecnico.service';
 
 @Component({
   selector: 'app-tecnico-list',
